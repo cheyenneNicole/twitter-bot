@@ -16,4 +16,4 @@ log/
 target/
 
 # Configuration
-src/main/java/TwitterBotConfig.java
+src/main/java/TwitterBot/Config.java
