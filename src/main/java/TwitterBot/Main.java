@@ -20,7 +20,7 @@ public class Main {
                 System.out.println(statusReponseList.get(x).toString());
             }
             // Post a Tweet using Twitter4j API
-            Status status = twitter.updateStatus("Hello world!");
+            Status status = twitter.updateStatus("Hello world for the last time today!");
             System.out.println("Successfully updated the status to [" + status.getText() + "].");
         } catch (Exception e) {
         }
